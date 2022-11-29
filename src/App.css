@@ -1,0 +1,24 @@
+.app {
+  text-align: center;
+  background-color: #121212;
+  min-height: 100vh;
+  color: white;
+}
+
+.type {
+  display: grid;
+  place-items: center;
+  position: absolute;
+  bottom: 8px;
+  left:50%;
+  transform: translate(-50%);
+  min-width: 60px;
+  height: 60px;
+  border-bottom: grey solid 2px;
+  font-size: 40px;
+  padding: 4px 20px;
+}
+
+.answers {
+  font-size: 26px;
+}
